@@ -1,0 +1,35 @@
+# Arquivos de estado do Terraform
+terraform.tfstate
+terraform.tfstate.*
+
+# Diretório de lock de execução
+.terraform/
+
+# Logs de crash do Terraform
+crash.log
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Backups criados pelo Terraform
+*.tfstate.backup
+
+# Arquivos de lock gerados pelo Terraform
+.terraform.lock.hcl
+
+# Arquivos temporários e de sistema
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# Arquivos específicos de IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs do sistema operacional
+logs/
+*.log
